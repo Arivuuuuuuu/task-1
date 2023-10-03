@@ -1,0 +1,48 @@
+body{
+    background: yellowgreen;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.design{
+    background: black;
+    color: whitesmoke;
+    border-radius: 5px;
+    width: auto;
+    padding: 10px;
+    
+    font-size: 20px;
+    
+    
+
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+
+.input-group input{
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.input-group.error{
+    color:red;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.input-group.success input{
+    border-color: green;
+}
+.input-group.error input{
+    border-color: red;
+}
+
